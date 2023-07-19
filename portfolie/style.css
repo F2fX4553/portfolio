@@ -297,6 +297,64 @@ section{
 
 /* books */
 
+/* certaficat*/
+
+.certaficat-title{
+	display: flex;
+	justify-content: center;
+	color: white;
+	font-size: 2.2em;
+	font-weight: 800;
+	margin-bottom: 30px;
+
+}
+
+.certaficat{
+	background:  url(images/backces.jpg) no-repeat;
+	width: 100%;
+	min-height: 100vh;
+		align-items: center;
+	background-size: cover;
+	background-position: center;
+	
+}
+.certaficat .content{
+	margin-top: 10px;
+	
+}
+
+.certaficat-card{
+	background-color: white;
+	border: 1px solid #000000;
+	min-height: 12em;
+	min-width: 10em;
+	width: 14em;
+	overflow: hidden;
+	border-radius: 10px;
+	margin: 10px;
+	transition: 0.7s ease;
+}
+
+.certaficat-card:hover{
+	transform: scale(1.1);
+
+}
+.certaficat-card:hover{
+	opacity: 0.8;
+}
+
+.certaficat-card img{
+	 border-radius: 100px;
+	width: 100%;
+
+
+	align-items: center;
+	
+
+}
+
+
+/* certaficats */
 /*Apps*/
 .app-title{
 	display: flex;
